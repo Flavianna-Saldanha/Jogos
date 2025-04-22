@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+
+:root {
+    --primary-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    list-style: none;
+    overflow-x: hidden;
+}
+
+body {
+    background-image: url(../img/gamer-zone-4k-9u.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.inicio {
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+
+.inicio h1 {
+    font-family: 'Bowlby One SC';
+    font-size: 30px;
+    color: var(--primary-color);
+    filter: drop-shadow(05px 8px 0px rgb(0, 0, 0));
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.jogos {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: var(--primary-color);
+    opacity: .9;
+}
+
+.jogo {
+    width: 250px;
+    height: 350px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.jogo img {
+    height: 300px;
+    padding: 15px 0;
+    border-radius: 15px;
+}
+
+.jogo h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+

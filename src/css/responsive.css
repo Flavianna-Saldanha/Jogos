@@ -1,0 +1,15 @@
+@media (min-width: 300px) and (max-width: 1400px) {
+    .jogos {
+        flex-wrap: wrap;
+        height: auto;
+        margin: 180px 20px;
+    }
+
+    .inicio {
+        margin: 0 20px;
+    }
+
+    .inicio h1 {
+        font-size: 25px;
+    }
+}

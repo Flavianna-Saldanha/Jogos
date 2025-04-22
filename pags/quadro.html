@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1.0">
+    <link rel="stylesheet" href="../src/css/pags/pags.css">
+    <link rel="stylesheet" href="../src/css/pags/quadro.css">
+    <link rel="shortcut icon" href="../src/img/quadro.jpg" type="image/x-icon">
+    <title>Quadro de Desenho</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="menu-mobile">
+                <img src="../src/img/menu.png" alt="" width="40">
+            </div>
+            <ul>
+                <a href="../pags/bateria.html" target="_blank"><li>Bateria</li></a>
+                <a href="../pags/jogoDaVelha.html" target="_blank"><li>Jogo da Velha</li></a>
+                <a href="../pags/quadro.html" target="_blank"><li>Quadro de desenho</li></a>
+                <a href="../pags/quiz.html" target="_blank"><li>Quiz</li></a>
+                <a href="../pags/arrasta.html" target="_blank"><li>Arrasta e Solta</li></a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1>Desenhando no Canvas</h1>
+
+        <canvas id="tela" width="800" height="400"></canvas>
+
+        <div class="colorArea">
+            <div data-color="black" style="background-color: black" class="color active"></div>
+            <div data-color="blue" style="background-color: blue" class="color"></div>
+            <div data-color="red" style="background-color: red" class="color"></div>
+            <div data-color="green" style="background-color: green" class="color"></div>
+            <div data-color="yellow" style="background-color: yellow" class="color"></div>
+            <div data-color="gray" style="background-color: gray" class="color"></div>
+        </div>
+
+        <button class="clear">Limpar Quadro</button>
+    </main>
+    <footer>Criado pela B7Web</footer>
+
+    <script src="../src/js/quadro.js"></script>
+    <script src="../src/js/script.js"></script>
+</body>
+</html>

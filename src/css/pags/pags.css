@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+    overflow-y: hidden;
+}
+
+.menu-mobile img {
+    position: fixed;
+    top: 25px;
+    right: 70px;
+}
+
+.menu {
+    background-color: #1a1818;
+}
+
+.menu ul{
+    display: none;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    text-transform: uppercase;
+    padding: 20px 0;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+}
